@@ -5,7 +5,7 @@ const TestingComp = (props: any) => {
   // Missing explicit return type (for TypeScript rules)
   console.log(props);
   const [count, setCount] = useState(0);
-
+console.log('hi')
 
   
   function handleClick() {
