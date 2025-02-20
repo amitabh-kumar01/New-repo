@@ -14,7 +14,7 @@ const TestingComp = (props: any) => {
   }
 
   function unusedFunction() {
-    // ESLint rule: no-unused-vars
+    // ESLint rule: no-unused-vars should be removed
     return 'I am not used';
   }
 
